@@ -39,7 +39,7 @@ function consultar() {
   }
   
   function excluir(formaPagamento) {
-    var url = "http://localhost:8080/formas-pagamento" + formaPagamento.id;
+    var url = "http://localhost:8080/formas-pagamento/" + formaPagamento.id;
   
     $.ajax({
       url: url,
